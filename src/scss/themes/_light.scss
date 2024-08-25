@@ -1,0 +1,5 @@
+@mixin theme-light {
+  --c-main-text: #{$blue-900};
+  --c-main-background-primary: #{$blue-100};
+  --c-main-background-secondary: #{$blue-600};
+}
