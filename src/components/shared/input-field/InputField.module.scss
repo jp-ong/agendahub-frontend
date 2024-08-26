@@ -1,0 +1,38 @@
+label.input {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 8px;
+
+  & > span {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--c-input-label);
+  }
+  & > input {
+    height: 40px;
+    padding: 0 14px;
+
+    background: var(--c-input-background);
+    color: var(--c-input-color);
+    border-color: var(--c-input-border);
+    border-radius: var(--radius-sm);
+    border-style: solid;
+    border-width: 1px;
+
+    outline: none;
+
+    font-family: var(--ff-primary);
+    font-size: 14px;
+    font-weight: 500;
+
+    &:focus {
+      border-color: var(--c-input-border-focus);
+    }
+  }
+
+  &.maxWidth {
+    width: 100%;
+  }
+}
