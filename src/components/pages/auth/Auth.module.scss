@@ -6,29 +6,35 @@ div.root {
   padding-bottom: 100px;
 
   display: flex;
-  background: var(--c-main-background-primary);
+  background: var(--c-main-background-tertiary);
 }
 
-div.form {
+div.container {
   width: 100%;
   max-width: 480px;
 
   margin: auto;
   padding: 40px 20px;
 
-  border: 1px solid var(--c-main-background-secondary);
+  background: var(--c-main-background-primary);
   border-radius: var(--radius-sm);
 
   & > form {
+    width: 100%;
+
+    margin-top: 16px;
+    margin-bottom: 40px;
+
     display: flex;
     flex-flow: column nowrap;
-    align-items: stretch;
     gap: 16px;
+  }
 
-    & > div.actions {
-      display: flex;
-      flex-flow: column nowrap;
-      gap: 16px;
-    }
+  & > div.cta {
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
   }
 }
