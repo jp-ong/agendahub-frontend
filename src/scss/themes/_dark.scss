@@ -1,0 +1,23 @@
+@mixin theme-dark {
+  --c-main-text: #{$gray-100};
+  --c-main-background-primary: #{$gray-900};
+  --c-main-background-secondary: #{$gray-800};
+
+  --c-button-contained-background: #{$blue-400};
+  --c-button-contained-color: #{$gray-900};
+  --c-button-contained-border: #{$blue-400};
+
+  --c-button-outlined-background: #{$gray-900};
+  --c-button-outlined-color: #{$blue-400};
+  --c-button-outlined-border: #{$gray-800};
+
+  --c-button-flat-background: #{$gray-800};
+  --c-button-flat-color: #{$gray-200};
+  --c-button-flat-border: #{$gray-800};
+
+  --c-input-background: #{$gray-800};
+  --c-input-color: #{$gray-100};
+  --c-input-label: #{$gray-200};
+  --c-input-border: #{$gray-800};
+  --c-input-border-focus: #{$blue-700};
+}
