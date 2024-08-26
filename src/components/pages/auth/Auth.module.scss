@@ -1,0 +1,34 @@
+div.root {
+  width: 100vw;
+  height: 100vh;
+
+  padding: 20px;
+  padding-bottom: 100px;
+
+  display: flex;
+  background: var(--c-main-background-primary);
+}
+
+div.form {
+  width: 100%;
+  max-width: 480px;
+
+  margin: auto;
+  padding: 40px 20px;
+
+  border: 1px solid var(--c-main-background-secondary);
+  border-radius: var(--radius-sm);
+
+  & > form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    gap: 16px;
+
+    & > div.actions {
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 16px;
+    }
+  }
+}
