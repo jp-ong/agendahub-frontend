@@ -1,0 +1,12 @@
+img.logo {
+  max-width: 100%;
+  object-fit: contain;
+
+  &.maxWidth {
+    width: 100%;
+  }
+
+  &.maxHeight {
+    height: 100%;
+  }
+}
